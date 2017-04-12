@@ -25,10 +25,11 @@ cd fabric-ca-client
 go build; go install
 ```
 As bibliotecas construídas estão disponíveis em:
-
+```
 $GOPATH/pkg/linux_amd64/github.com/hyperledger/fabric/*.a
 $GOPATH/pkg/linux_amd64/github.com/hyperledger/fabric-sdk-go/fabric-client.a
 $GOPATH/pkg/linux_amd64/github.com/hyperledger/fabric-sdk-go/fabric-ca-client.a
+```
 
 Para instalações no Mac, encontrado o erro abaixo:
 
