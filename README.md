@@ -54,22 +54,26 @@ Obs: Ao executar o Makefile na raiz do projeto fabric-sdk-go a build apresenta e
 ---
 
 Checkout Marbles (exemplos de contratos)
+```
 go get github.com/IBM-blockchain/marbles
-
+```
 Build Marbles
+```
 cd $GOPATH/src/github.com/IBM-blockchain/marbles/chaincode/src/marbles/
 go build; go install
-
+```
 Erro de compilação (os contratos estão utilizando api 0.6)
+```
 # github.com/IBM-blockchain/marbles/chaincode/src/marbles
 ./read_ledger.go:108: assignment count mismatch: 3 = 2
 ./read_ledger.go:128: assignment count mismatch: 3 = 2
 ./read_ledger.go:178: assignment count mismatch: 3 = 2
 ./read_ledger.go:232: assignment count mismatch: 3 = 2
+```
 
 Outros exemplos
 https://github.com/hyperledger/fabric/tree/master/examples/chaincode/go
 
-#Usando ultima versão do GO (Ubuntu)
+Usando ultima versão do GO (Ubuntu)
 https://tecadmin.net/install-go-on-ubuntu/
 
